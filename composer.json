@@ -20,9 +20,13 @@
       "email": "ivan@codezero.be"
     }
   ],
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/think-01/php-oauth.git"
+  }],
   "require": {
     "php": ">=5.4.0",
-    "and/oauth": "~0.6"
+    "and/oauth": "dev-master"
   },
   "require-dev": {
     "phpspec/phpspec": "~2.0",
