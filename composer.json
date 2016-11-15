@@ -23,7 +23,7 @@
   "repositories": [{
     "type": "package",
     "package": {
-      "version": "master",
+      "version": "1.0.0",
       "name": "and/oauth",
       "source": {
         "url": "https://github.com/think-01/php-oauth.git",
@@ -34,7 +34,7 @@
   }],
   "require": {
     "php": ">=5.4.0",
-    "and/oauth": "master"
+    "and/oauth": "1.0.0"
   },
   "require-dev": {
     "phpspec/phpspec": "~2.0",
