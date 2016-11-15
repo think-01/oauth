@@ -20,21 +20,9 @@
       "email": "ivan@codezero.be"
     }
   ],
-  "repositories": [{
-    "type": "package",
-    "package": {
-      "version": "1.0.0",
-      "name": "and/oauth",
-      "source": {
-        "url": "https://github.com/think-01/php-oauth.git",
-        "type": "git",
-        "reference": "master"
-      }
-    }
-  }],
   "require": {
     "php": ">=5.4.0",
-    "and/oauth": "1.0.0"
+    "and/oauth": "~0.6"
   },
   "require-dev": {
     "phpspec/phpspec": "~2.0",
