@@ -26,7 +26,7 @@
   }],
   "require": {
     "php": ">=5.4.0",
-    "and/oauth": "1.0.6"
+    "and/oauth": "1.0.7"
   },
   "require-dev": {
     "phpspec/phpspec": "~2.0",
