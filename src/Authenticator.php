@@ -78,6 +78,12 @@ class Authenticator implements AuthenticatorContract
         return $raw ? $result : $service->constructExtractor();
     }
 
+    public function make($provider)
+    {
+        $provider = $this->providerFactory->createProvider($provider);
+        return $this->createService($provider);
+    }
+
     /**
      * Create a service.
      *
